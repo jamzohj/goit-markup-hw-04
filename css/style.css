@@ -145,9 +145,11 @@ body {
 .hero {
   padding: 188px 0;
   background-color: var(--footer-background);
+  background-image: url(../images/background-img/people-office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero.container {
-  outline: 5px solid tomato;
   display: flex;
   padding: 0;
   flex-direction: column;
