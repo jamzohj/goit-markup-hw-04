@@ -155,6 +155,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
 }
 .hero.container {
   background-color: var(--footer-background);
@@ -163,7 +164,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1440px;
 }
 .hero-title {
   max-width: 496px;
