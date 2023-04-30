@@ -245,10 +245,12 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+  align-items: center;
 }
 .wrapper-list-item{
   width: 40px;
   height: 40px;
+
 }
 .wrapper-link{
   width: 100%;
