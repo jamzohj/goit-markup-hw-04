@@ -274,7 +274,7 @@ body {
 }
 .wrapper-link:hover,
 .wrapper-link:focus {
-  background-color: var(--button-active);
+  background-color: #404bbf;
 }
 
 .team-icons {
