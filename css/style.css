@@ -247,6 +247,12 @@ body {
   text-align: center;
   padding: 32px 0;
 }
+.team-parag {
+  margin-bottom: 8px;
+}
+.img-team {
+  width: 100%;
+}
 .team-wrapper-list {
   display: flex;
   justify-content: center;
