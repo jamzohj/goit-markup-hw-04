@@ -207,9 +207,7 @@ body {
   justify-content: space-between;
   gap: 24px;
 }
-.icons-advent{
-  fill: tomato;
-}
+
 .examples {
   padding-bottom: 120px;
 }
