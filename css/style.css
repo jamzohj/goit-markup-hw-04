@@ -261,12 +261,12 @@ body {
   align-items: center;
   justify-content: center;
 }
-.wrapper-link:hover{
-  background-color: var(--button-active);
-}
+.wrapper-link:hover,
 .wrapper-link:focus{
   background-color: var(--button-active);
 }
+
+
 .team-icons{
   fill: var(--accent-text-color);
 }
