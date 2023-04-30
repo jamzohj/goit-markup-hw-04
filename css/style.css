@@ -37,6 +37,7 @@ img {
   --secondary-background: #f4f4fd;
   --footer-background: #2e2f42;
   --button-active: #404bbf;
+  --primary-icons-color: #8e8f99;
 }
 
 body {
@@ -78,7 +79,8 @@ body {
   align-items: center;
 }
 .header {
-  box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   border-bottom: 1px solid #e7e9fc;
 }
 .logo {
@@ -147,10 +149,14 @@ body {
   padding: 188px 0;
   background-color: var(--footer-background);
 }
-.hero-back{
+.hero-back {
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-img/people-office.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background-img/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -187,7 +193,7 @@ body {
 .hero-item {
   width: calc((100% - 72px) / 4);
 }
-.icons-hero{
+.icons-hero {
   height: 112px;
   display: flex;
   justify-content: center;
@@ -195,7 +201,6 @@ body {
   background-color: var(--secondary-background);
   border-radius: 4px;
   margin-bottom: 8px;
-
 }
 .adventages {
   padding: 120px 0;
@@ -241,33 +246,31 @@ body {
   text-align: center;
   padding: 32px 0;
 }
-.team-wrapper-list{
+.team-wrapper-list {
   display: flex;
   justify-content: center;
   gap: 24px;
   align-items: center;
 }
-.wrapper-list-item{
+.wrapper-list-item {
   width: 40px;
   height: 40px;
-
 }
-.wrapper-link{
+.wrapper-link {
   width: 100%;
   height: 100%;
   background-color: var(--logo-text-color);
-  border-radius:50% ;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .wrapper-link:hover,
-.wrapper-link:focus{
+.wrapper-link:focus {
   background-color: var(--button-active);
 }
 
-
-.team-icons{
+.team-icons {
   fill: var(--accent-text-color);
 }
 .team.list {
@@ -275,11 +278,46 @@ body {
   gap: 24px;
 }
 .team-card {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
   background-color: var(--primary-background);
 }
+/* customers  */
+.customers-title {
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--footer-background);
+  margin-bottom: 72px;
+}
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+.customers-list-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+.customers-link {
+  border: 1px solid var(--primary-icons-color);
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-icons-color);
+}
+.customers-link:hover,
+.customers-link:focus {
+  border-color: var(--button-active);
+  color: var(--button-active);
+}
+.customers-icons {
+  fill: currentColor;
+}
+
 /**
   |================================
   | Button Styles
