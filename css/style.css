@@ -38,6 +38,7 @@ img {
   --footer-background: #2e2f42;
   --button-active: #404bbf;
   --primary-icons-color: #8e8f99;
+  --accent-icons-color: #31d0aa;
 }
 
 body {
@@ -352,8 +353,9 @@ body {
   cursor: pointer;
 }
 .button-portfolio:hover,
-.button-portfolio:focus{
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+.button-portfolio:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button:hover,
@@ -394,12 +396,13 @@ body {
   justify-content: space-between;
   outline: 5px solid tomato;
 }
-.portfolio-link{
-  display: block; 
+.portfolio-link {
+  display: block;
 }
 .portfolio-link:hover,
-.portfolio-link:focus{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.portfolio-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-card-text {
@@ -443,9 +446,49 @@ body {
   background-color: var(--footer-background);
   outline: 5px solid tomato;
 }
+.footer-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+.footer-wrapper-logo {
+  margin-right: 120px;
+}
+.social-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--logo-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-icons-color);
+}
+.social-text {
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--primary-background);
+}
+.social-icons {
+  fill: var(--accent-text-color);
+}
 .logo-only-footer {
   display: inline-block;
   margin-bottom: 16px;
+}
+.social-list {
+  display: flex;
+  gap: 16px;
+}
+.social-list-item {
+  width: 40px;
+  height: 40px;
 }
 .logo-footer {
   color: #f4f4fd;
