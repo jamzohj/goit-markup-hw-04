@@ -308,11 +308,13 @@ body {
 .customers-list {
   display: flex;
   gap: 24px;
+  list-style: none;
 }
 .customers-list-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
+
 .customers-link {
   border: 1px solid var(--primary-icons-color);
   width: 100%;
